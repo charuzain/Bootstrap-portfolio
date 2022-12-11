@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: rgb(25, 159, 5);
+  --dark: black;
+  --light: #898989;
+  --pure: white;
+  --bg-color: #f2f2f2;
+}
+
+
+
+
+body{
+  width: 100%;
+
+
+}
+
+header nav {
+  padding-top: 1rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+section{
+  padding: 5rem 0;
+}
+
+/* .main-btn{
+
+} */
+
+
+.logo {
+  color: var(--primary);
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.data-type > .txt {
+  border-right: 0.2rem solid var(--primary);
+}
+
+.hero-image{
+  width: 100%
+  /* flex: 1; */
+  /* border: 3px solid red; */
+  /* justify-content: center; */
+}
