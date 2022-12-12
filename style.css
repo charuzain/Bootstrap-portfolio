@@ -128,18 +128,19 @@ font-size:20px;
 }
 
 #skill-container{
-  border: 5px solid red;
   text-align: center;
+  margin-top: 33px;
 }
 
 .fa-brands{
   color: var(--primary);
   font-size: 4rem;
 }
-.devicon-jquery-plain {
+/* .devicon-jquery-plain {
     color: var(--primary);
   font-size: 4rem;
-}
+} */
 .fa-brands:hover{
   color: var(--pure);
+  cursor: pointer;
 }
