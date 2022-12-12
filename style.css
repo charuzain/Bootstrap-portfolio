@@ -93,22 +93,22 @@ background-color:var(--dark);
  
 }
 
-#about-me , #skills{
+#about-me , #skills,#projects,#contact{
    min-height: 100vh;
    color: var(--primary);
    padding-top:6rem;
 }
 
-.about-section{
+.about-section,.project-section,.contact-me {
   margin-bottom: 60px;
 }
-.about-section .hr-line{
+.about-section .hr-line , .project-section .hr-line,.contact-me  .hr-line{
   width: 80px;
   height: 4px;
   background-color: var(--primary);
   display:inline-block;
 }
-.about-section h1{
+.about-section h1,.project-section h1{
   font-weight: 800;
   text-transform: uppercase;
   margin-top: 16px;
@@ -117,6 +117,10 @@ background-color:var(--dark);
   font-size: 52px;
 }
 .img-fluid{
+  width: 70%;
+ 
+}
+.img1-fluid{
   width: 70%;
  
 }
@@ -136,11 +140,17 @@ font-size:20px;
   color: var(--primary);
   font-size: 4rem;
 }
-/* .devicon-jquery-plain {
-    color: var(--primary);
-  font-size: 4rem;
-} */
+
 .fa-brands:hover{
   color: var(--pure);
   cursor: pointer;
+}
+
+.para{
+  color: var(--primary);
+  font-weight: lighter;
+}
+
+#contact-form{
+  margin-top:2rem
 }
